@@ -1,0 +1,67 @@
+/* Psuedo Class*/
+.link{
+    color: rgb(197, 135, 0);
+}
+.link:active{
+    color: green;
+}
+.link:visited{
+    color: blue;
+}
+.link:hover{
+    color: purple
+}
+.list_item{
+    color: palevioletred;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+/* .list_item:first-child{
+    color:green
+} */
+
+/* .list_item:last-child{
+    color:blue
+} */
+
+/* .list_item:nth-child(odd){
+    color:blue
+} */
+
+/* .list_item:nth-child(2){
+    color:blue
+} */
+
+/* .list_item:nth-child(-n+6){
+    color:blue
+} */
+
+/* Psuedo Elemet */
+
+/* .list_item::first-letter{
+    color: blue;
+    font-size: 44px;
+}
+
+.text::first-letter{
+    color: blue;
+    font-size: 44px;
+}
+
+.text::first-line{
+    color: green;
+    font-size: 44px;
+} */
+
+.text::after{
+    content: "Merhaba Ben Sona Eklendim!";
+    color: blue;
+    font-size: 24px;
+}
+
+.text::before{
+    content: "Merhaba Ben Başa Eklendim!";
+    color: rgb(255, 145, 0);
+    font-size: 24px;
+}

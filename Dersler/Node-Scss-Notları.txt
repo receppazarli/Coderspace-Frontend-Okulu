@@ -1,0 +1,15 @@
+npm -v --> vesiyon kontrol
+
+npm i --> package.json içindeki kurulu olan sürümleri bizim için indiriyor.
+
+css ve scss diye klasör oluşturuyoruz.
+
+scss içine main.scss klasörü oluşturuyoruz.
+
+sonra index.html diye yapımızı yapıyoruz ve içine main.css klasörünün linkini veriyoruz(ama aynı klasörde değiller bunu unutma!).
+
+sonra packagejson da script içine  "sass": "sass -w scss:css" bu yazıyı ekliyoruz.
+
+sonra npm sass --> diyerek sistem çalışıyor.
+
+biz her main.scss de kayıt yaptıkça css klasöründe ki main.css de değişiklikler otomatik olarak gidiyor. 

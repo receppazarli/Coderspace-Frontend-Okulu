@@ -1,0 +1,31 @@
+.bgImage{
+    background-image: url('https://img.fruugo.com/product/8/84/824092848_max.jpg');
+    width: 500px;
+    height: 300px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size:cover;
+    color: blue;
+}
+
+.title{
+    font-size: 30px;
+
+}
+.paragraf{
+    font-size: 24px;
+}
+
+@media screen and (max-width:500){
+    .title{
+        font-size: 24px;
+    }
+    .paragraf{
+        font-size: 18px;
+    }
+    .bgImage{ 
+        width: 300;
+        height: 150;
+        color: red;
+    }
+}
