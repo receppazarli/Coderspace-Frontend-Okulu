@@ -13,3 +13,8 @@ sonra packagejson da script içine  "sass": "sass -w scss:css" bu yazıyı ekliy
 sonra npm sass --> diyerek sistem çalışıyor.
 
 biz her main.scss de kayıt yaptıkça css klasöründe ki main.css de değişiklikler otomatik olarak gidiyor. 
+
+
+npm init -y
+npm i bootstrap
+npm i sass
