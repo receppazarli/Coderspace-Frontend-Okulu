@@ -1,4 +1,4 @@
-// let value;
+let value;
 
 // value = document;
 // value = document.URL;
@@ -28,30 +28,30 @@
 // value=document.querySelector(".text");
 // value=document.querySelector("span");
 
-// //Eleman oluşturma
-// // value =document.getElementById("denemeButon");
+//Eleman oluşturma
+// value =document.getElementById("denemeButon");
 
-// const button = document.createElement("a");
-// button.id="denemeButon";
-// button.className="btn btn-danger";
-// button.href="https://www.google.com/";
-// button.target="_blank";
-// button.textContent="Google Git";
-// const divSec =document.querySelector("#denemeDiv");
-// divSec.appendChild(button);
+const button1 = document.createElement("a");
+button1.id="denemeButon";
+button1.className="btn btn-success";
+button1.href="https://www.google.com/";
+button1.target="_blank";
+button1.textContent="Google Git";
+const divSec =document.querySelector("#denemeDiv");
+divSec.appendChild(button1);
 
-// value=document.getElementById("denemeButon");
+value=document.getElementById("denemeButon");
 
-// value.addEventListener("click",function(){
-//     console.log("Tıklama işlemi gerçekleşti")
-// });
-
-
-// console.log(value);
+value.addEventListener("click",function(){
+    console.log("Tıklama işlemi gerçekleşti")
+});
 
 
-const textInput=document.querySelector("#text-input");
-textInput.addEventListener("keyup",() => console.log(textInput.value));
-textInput.addEventListener("focus",() => console.log(textInput.value=""));
-textInput.addEventListener("blur",() => console.log("Çıkış yapıldı"));
+console.log(value);
+
+
+// const textInput=document.querySelector("#text-input");
+// textInput.addEventListener("keyup",() => console.log(textInput.value));
+// textInput.addEventListener("focus",() => console.log(textInput.value=""));
+// textInput.addEventListener("blur",() => console.log("Çıkış yapıldı"));
 
